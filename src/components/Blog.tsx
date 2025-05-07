@@ -7,7 +7,7 @@ const blogPosts = [
     title: 'The Future of Digital Healthcare',
     excerpt: 'Exploring how technology is transforming patient care and medical adherence.',
     date: 'May 5, 2025',
-    image: '/images/hero.jpg',
+    image: '/images/blog.jpg',
     readTime: '5 min read',
   },
   {
@@ -15,7 +15,7 @@ const blogPosts = [
     title: 'Improving Patient Outcomes',
     excerpt: 'How digital health platforms are revolutionizing patient-provider relationships.',
     date: 'May 3, 2025',
-    image: '/images/hero.jpg',
+    image: '/images/blog.jpg',
     readTime: '4 min read',
   },
   {
@@ -23,7 +23,7 @@ const blogPosts = [
     title: 'Healthcare Technology Trends',
     excerpt: 'Latest innovations and developments in the healthcare technology sector.',
     date: 'May 1, 2025',
-    image: '/images/hero.jpg',
+    image: '/images/blog.jpg',
     readTime: '6 min read',
   },
 ];

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { FiCalendar } from "react-icons/fi"; // React icon
+import { FiCalendar } from "react-icons/fi"; 
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="relative h-[400px]">
             <Image
-              src="/images/hero.jpg"
+              src="/images/health.jpg"
               alt="About RecoveryRx"
               fill
               className="object-cover"
