@@ -13,3 +13,10 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+
+@media (width >= 80rem) {
+  .container {
+    max-width: 80rem !important;
+  }
+}
