@@ -14,7 +14,7 @@ export default function Navbar() {
     { href: "/about", label: "About Us" },
     { href: "/treatments", label: "What We Treat" },
     { href: "#approach", label: "Our Approach", isHash: true },
-    { href: "#contact", label: "Contact", isHash: true },
+    { href: "/contact", label: "Contact" },
   ];
 
   return (
