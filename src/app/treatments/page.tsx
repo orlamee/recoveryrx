@@ -62,7 +62,7 @@ export default function TreatmentPage() {
 
           {/* Substance Use Disorders */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 items-center">
-            <div className="bg-white p-8 rounded-lg shadow-md">
+            <div className="bg-white p-8 rounded-none shadow-md">
               <div className="flex items-center mb-4">
                 <GiMedicines className="text-2xl text-[#6e573b] mr-4" />
                 <h3 className="text-2xl text-[#6e573b] font-semibold">
@@ -124,7 +124,7 @@ export default function TreatmentPage() {
                 className="object-cover"
               />
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-md">
+            <div className="bg-white p-8 rounded-none shadow-md">
               <div className="flex items-center mb-4">
                 <GiHeartBottle className="text-3xl text-[#6e573b] mr-4" />
                 <h3 className="text-2xl text-[#6e573b] font-semibold">
@@ -177,7 +177,7 @@ export default function TreatmentPage() {
 
           {/* Alcohol Addiction */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 items-center">
-            <div className="bg-white p-8 rounded-lg shadow-md">
+            <div className="bg-white p-8 rounded-none shadow-md">
               <div className="flex items-center mb-4">
                 <GiOpenedFoodCan className="text-3xl text-[#6e573b] mr-4" />
                 <h3 className="text-2xl text-[#6e573b] font-semibold">
@@ -245,7 +245,7 @@ export default function TreatmentPage() {
                 className="object-cover"
               />
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-md">
+            <div className="bg-white p-8 rounded-none shadow-md">
               <div className="flex items-center mb-4">
                 <GiBrain className="text-3xl text-[#6e573b] mr-4" />
                 <h3 className="text-2xl text-[#6e573b] font-semibold">
@@ -289,7 +289,7 @@ export default function TreatmentPage() {
 
           {/* Family Support */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div className="bg-white p-8 rounded-lg shadow-md">
+            <div className="bg-white p-8 rounded-none shadow-md">
               <div className="flex items-center mb-4">
                 <FaHandsHelping className="text-3xl text-[#6e573b] mr-4" />
                 <h3 className="text-2xl text-[#6e573b] font-semibold">
