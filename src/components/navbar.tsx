@@ -4,12 +4,21 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FiPhone, FiMenu, FiX } from "react-icons/fi";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  const navLinks = [
+    { href: "/about", label: "About Us" },
+    { href: "/treatments", label: "What We Treat" },
+    { href: "#approach", label: "Our Approach", isHash: true },
+    { href: "/contact", label: "Contact" },
+  ];
 
   return (
-    <nav className="bg-black shadow-md w-full">
+    <nav className="bg-black shadow-md w-full sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
@@ -22,19 +31,22 @@ export default function Navbar() {
               />
             </Link>
           </div>
-          <div className="hidden md:flex space-x-10 text-sm font-medium text-white">
-            <Link href="#about" className="hover:text-[#6e573b]">
-              About Us
-            </Link>
-            <Link href="#treatments" className="hover:text-[#6e573b]">
-              What We Treat
-            </Link>
-            <Link href="#approach" className="hover:text-[#6e573b]">
-              Our Approach
-            </Link>
-            <Link href="#contact" className="hover:text-[#6e573b]">
-              Contact
-            </Link>
+
+          {/* Desktop Nav */}
+          <div className="hidden md:flex space-x-10 text-sm font-medium">
+            {navLinks.map(({ href, label, isHash }) => (
+              <Link
+                key={href}
+                href={href}
+                className={`${
+                  !isHash && pathname === href
+                    ? "text-[#6e573b] font-semibold"
+                    : "text-white"
+                } hover:text-[#6e573b] transition`}
+              >
+                {label}
+              </Link>
+            ))}
           </div>
 
           {/* CTA Button */}
@@ -48,6 +60,7 @@ export default function Navbar() {
             </Link>
           </div>
 
+          {/* Mobile Menu Toggle */}
           <div className="md:hidden">
             <button
               onClick={() => setMenuOpen(!menuOpen)}
@@ -58,43 +71,20 @@ export default function Navbar() {
             </button>
           </div>
         </div>
+
+        {/* Mobile Menu */}
         {menuOpen && (
           <div className="md:hidden flex flex-col gap-4 mt-4 text-white text-sm font-medium">
-            <Link
-              href="/"
-              className="hover:text-[#6e573b]"
-              onClick={() => setMenuOpen(false)}
-            >
-              Home
-            </Link>
-            <Link
-              href="#about"
-              className="hover:text-[#6e573b]"
-              onClick={() => setMenuOpen(false)}
-            >
-              About Us
-            </Link>
-            <Link
-              href="#treatments"
-              className="hover:text-[#6e573b]"
-              onClick={() => setMenuOpen(false)}
-            >
-              What We Treat
-            </Link>
-            <Link
-              href="#approach"
-              className="hover:text-[#6e573b]"
-              onClick={() => setMenuOpen(false)}
-            >
-              Our Approach
-            </Link>
-            <Link
-              href="#contact"
-              className="hover:text-[#6e573b] mb-6"
-              onClick={() => setMenuOpen(false)}
-            >
-              Contact
-            </Link>
+            {navLinks.map(({ href, label }) => (
+              <Link
+                key={href}
+                href={href}
+                className="hover:text-[#6e573b]"
+                onClick={() => setMenuOpen(false)}
+              >
+                {label}
+              </Link>
+            ))}
           </div>
         )}
       </div>
