@@ -9,7 +9,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="relative h-[400px]">
             <Image
-              src="/images/health.jpg"
+              src="/images/health-2.jpg"
               alt="About RecoveryRx"
               fill
               className="object-cover"
