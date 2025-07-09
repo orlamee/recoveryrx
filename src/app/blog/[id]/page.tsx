@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -46,8 +44,13 @@ const blogPosts = [
   },
 ];
 
-export default function BlogPost({ params }: { params: { id: string } }) {
-  const post = blogPosts.find((p) => p.id === params.id);
+export default async function BlogPost({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
+  const post = blogPosts.find((p) => p.id === id);
 
   if (!post) {
     return (
