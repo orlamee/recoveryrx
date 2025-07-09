@@ -12,41 +12,51 @@ const chunkArray = (arr: any[], size: number) =>
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
+    name: "Daniel K.",
     role: "Patient",
     image: "/images/avatar.png",
     quote:
-      "RecoveryRx has made managing my medications so much easier. The reminders and tracking features are invaluable.",
+      "I was skeptical about using medication to manage my recovery, but the MAT program helped me feel normal again. The team at RecoveryRx explained everything and made sure I was comfortable. I finally feel like myself.",
   },
   {
     id: 2,
-    name: "Dr. Michael Chen",
-    role: "Healthcare Provider",
+    name: "Monique H.",
+    role: "Patient",
     image: "/images/avatar.png",
     quote:
-      "This platform has significantly improved patient compliance and outcomes.",
+      "After a relapse, I was afraid to ask for help again. RecoveryRx welcomed me without judgment and helped me rebuild from a stronger foundation. I'm now focused, motivated, and feeling hopeful for the first time in a while.",
   },
   {
     id: 3,
-    name: "Emily Martinez",
-    role: "Pharmacist",
+    name: "Serena V.",
+    role: "Patient",
     image: "/images/avatar.png",
     quote:
-      "The integration capabilities and user-friendly interface make RecoveryRx a game-changer in healthcare technology.",
+      "For years, I felt stuck in a cycle of anxiety and substance use. RecoveryRx helped me understand how the two were connected and gave me tools to work through both. This was the first time I felt truly seen and understood.",
   },
   {
     id: 4,
-    name: "John Doe",
-    role: "Caregiver",
+    name: "Marcus D.",
+    role: "Patient",
     image: "/images/avatar.png",
-    quote: "Now I can help my mom take her meds on time every day.",
+    quote:
+      "Before RecoveryRx, I didn't think long-term recovery was possible for me. But now, with a strong support system and real tools in place, I'm celebrating one full year sober.",
   },
   {
     id: 5,
-    name: "Lisa Kim",
-    role: "Nurse",
+    name: "Tyler S.",
+    role: "Patient",
     image: "/images/avatar.png",
-    quote: "Great for keeping track of patient dosages and side effects.",
+    quote:
+      "The team at RecoveryRx didn't just treat my addiction, they treated me as a whole person. My mental health, physical health, and lifestyle were all considered.",
+  },
+  {
+    id: 6,
+    name: "Kevin L.",
+    role: "Patient",
+    image: "/images/avatar.png",
+    quote:
+      "RecoveryRx didn't just treat me they involved my family in the process. We had real conversations, learned how to support each other, and finally started to rebuild trust. That changed everything for me.",
   },
 ];
 
@@ -112,7 +122,7 @@ const Testimonial = () => {
               <button
                 key={index}
                 onClick={() => handleSlideChange(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                className={`w-3 h-3 rounded-full transition-all duration-300 cursor-pointer ${
                   activeIndex === index ? "bg-[#6e573b]" : "bg-gray-300"
                 }`}
                 aria-label={`Go to slide ${index + 1}`}
