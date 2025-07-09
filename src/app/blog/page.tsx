@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import Navbar from '@/components/navbar';
 import Footer from '@/components/Footer';
 
@@ -56,9 +57,12 @@ const BlogPage = () => {
                   </div>
                   <h3 className="font-bold mb-2">{post.title}</h3>
                   <p className="text-black mb-4 text-xs">{post.excerpt}</p>
-                  <button className="text-[#6e573b] font-[500] text-sm hover:text-blue-800">
+                  <Link 
+                    href={`/blog/${post.id}`}
+                    className="text-[#6e573b] font-[500] text-sm hover:text-blue-800"
+                  >
                     Read More →
-                  </button>
+                  </Link>
                 </div>
               </div>
             ))}
