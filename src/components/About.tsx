@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { FiCalendar } from "react-icons/fi"; 
+import { FiCalendar } from "react-icons/fi";
 
 const About = () => {
   return (
@@ -20,10 +20,9 @@ const About = () => {
             <p className="text-black mb-6 text-sm font-normal">
               RecoveryRx began with one mission: to offer a better path to
               healing, one rooted in dignity, understanding, and real support.
-              Our team of clinicians and counselors saw a need for addiction
-              care that treats the whole person, not just the symptoms. So we
-              created a place where people feel safe, heard, and empowered from
-              day one.
+              Dr. Vivian saw a need for addiction care that treats the whole
+              person, not just the symptoms. So we created a place where people
+              feel safe, heard, and empowered from day one.
             </p>
             <p className="text-black mb-6 text-sm font-normal">
               Located in the heart of our community, RecoveryRx is more than a

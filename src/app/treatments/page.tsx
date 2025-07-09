@@ -128,7 +128,7 @@ export default function TreatmentPage() {
               <div className="flex items-center mb-4">
                 <GiHeartBottle className="text-3xl text-[#6e573b] mr-4" />
                 <h3 className="text-2xl text-[#6e573b] font-semibold">
-                  Opioid Dependency
+                  Opioid Use Disorder
                 </h3>
               </div>
               <p className="text-black mb-6">
@@ -181,7 +181,7 @@ export default function TreatmentPage() {
               <div className="flex items-center mb-4">
                 <GiOpenedFoodCan className="text-3xl text-[#6e573b] mr-4" />
                 <h3 className="text-2xl text-[#6e573b] font-semibold">
-                  Alcohol Addiction
+                  Alcohol Use Disorder
                 </h3>
               </div>
               <p className="text-black mb-6">

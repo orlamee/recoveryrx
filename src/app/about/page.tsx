@@ -115,10 +115,9 @@ export default function AboutPage() {
                   support.
                 </p>
                 <p>
-                  Our team of clinicians and counselors saw a need for addiction
-                  care that treats the whole person, not just the symptoms. So
-                  we created a place where people feel safe, heard, and
-                  empowered from day one.
+                  Dr. Vivian saw a need for addiction care that treats the
+                  whole person, not just the symptoms. So we created a place
+                  where people feel safe, heard, and empowered from day one.
                 </p>
                 <p>
                   Located in the heart of our community, RecoveryRx is more than

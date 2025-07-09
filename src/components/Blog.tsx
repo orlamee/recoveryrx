@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 const blogPosts = [
   {
-    id: 'understanding-medication-assisted-treatment',
-    title: 'Understanding Medication-Assisted Treatment (MAT)',
-    excerpt: 'Learn how MAT combines medications with counseling and behavioral therapies to provide a comprehensive approach to substance use disorder treatment.',
+    id: 'understanding-suboxone-a-tool-in-the-battle-against-addiction',
+    title: 'Understanding Suboxone: A Tool in the Battle Against Addiction',
+    excerpt: 'Discover how Suboxone combines medication with comprehensive treatment to help individuals overcome opioid dependency and achieve lasting recovery.',
     date: 'July 8, 2025',
-    image: '/images/health.jpg',
+    image: '/images/opiods.jpg',
     readTime: '8 min read',
   },
   {
