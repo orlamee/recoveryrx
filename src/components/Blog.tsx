@@ -1,30 +1,31 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const blogPosts = [
   {
-    id: 1,
-    title: 'The Future of Digital Healthcare',
-    excerpt: 'Exploring how technology is transforming patient care and medical adherence.',
-    date: 'May 5, 2025',
-    image: '/images/blog.jpg',
-    readTime: '5 min read',
+    id: 'understanding-medication-assisted-treatment',
+    title: 'Understanding Medication-Assisted Treatment (MAT)',
+    excerpt: 'Learn how MAT combines medications with counseling and behavioral therapies to provide a comprehensive approach to substance use disorder treatment.',
+    date: 'July 8, 2025',
+    image: '/images/health.jpg',
+    readTime: '8 min read',
   },
   {
-    id: 2,
-    title: 'Improving Patient Outcomes',
-    excerpt: 'How digital health platforms are revolutionizing patient-provider relationships.',
-    date: 'May 3, 2025',
-    image: '/images/blog.jpg',
-    readTime: '4 min read',
-  },
-  {
-    id: 3,
-    title: 'Healthcare Technology Trends',
-    excerpt: 'Latest innovations and developments in the healthcare technology sector.',
-    date: 'May 1, 2025',
-    image: '/images/blog.jpg',
+    id: 'breaking-the-stigma-mental-health-in-recovery',
+    title: 'Breaking the Stigma: Mental Health in Recovery',
+    excerpt: 'Addressing the dual challenges of addiction recovery and mental health, and how integrated treatment approaches can make a difference.',
+    date: 'July 6, 2025',
+    image: '/images/health-2.jpg',
     readTime: '6 min read',
+  },
+  {
+    id: 'family-support-in-the-recovery-journey',
+    title: 'Family Support in the Recovery Journey',
+    excerpt: 'How involving family members in the recovery process can strengthen outcomes and rebuild relationships damaged by addiction.',
+    date: 'July 4, 2025',
+    image: '/images/blog.jpg',
+    readTime: '7 min read',
   },
 ];
 
@@ -51,9 +52,12 @@ const Blog = () => {
                 </div>
                 <h3 className="font-bold mb-2">{post.title}</h3>
                 <p className="text-black mb-4 text-xs">{post.excerpt}</p>
-                <button className="text-[#6e573b] font-[500] text-sm hover:text-blue-800">
+                <Link 
+                  href={`/blog/${post.id}`}
+                  className="text-[#6e573b] font-[500] text-sm hover:text-blue-800"
+                >
                   Read More →
-                </button>
+                </Link>
               </div>
             </div>
           ))}

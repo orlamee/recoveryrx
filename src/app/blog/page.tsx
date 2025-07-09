@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 
 const blogPosts = [
   {
-    id: 1,
+    id: 'understanding-medication-assisted-treatment',
     title: 'Understanding Medication-Assisted Treatment (MAT)',
     excerpt: 'Learn how MAT combines medications with counseling and behavioral therapies to provide a comprehensive approach to substance use disorder treatment.',
     date: 'July 8, 2025',
@@ -14,7 +14,7 @@ const blogPosts = [
     readTime: '8 min read',
   },
   {
-    id: 2,
+    id: 'breaking-the-stigma-mental-health-in-recovery',
     title: 'Breaking the Stigma: Mental Health in Recovery',
     excerpt: 'Addressing the dual challenges of addiction recovery and mental health, and how integrated treatment approaches can make a difference.',
     date: 'July 6, 2025',
@@ -22,7 +22,7 @@ const blogPosts = [
     readTime: '6 min read',
   },
   {
-    id: 3,
+    id: 'family-support-in-the-recovery-journey',
     title: 'Family Support in the Recovery Journey',
     excerpt: 'How involving family members in the recovery process can strengthen outcomes and rebuild relationships damaged by addiction.',
     date: 'July 4, 2025',
