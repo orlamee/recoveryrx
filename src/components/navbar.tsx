@@ -13,7 +13,7 @@ export default function Navbar() {
   const navLinks = [
     { href: "/about", label: "About Us" },
     { href: "/treatments", label: "What We Treat" },
-    { href: "/", label: "Our Approach" },
+    { href: "/approach", label: "Our Approach" },
     { href: "/blog", label: "Blog" },
     { href: "/contact", label: "Contact" },
   ];
