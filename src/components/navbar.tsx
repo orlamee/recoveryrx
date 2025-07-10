@@ -13,7 +13,7 @@ export default function Navbar() {
   const navLinks = [
     { href: "/about", label: "About Us" },
     { href: "/treatments", label: "What We Treat" },
-    { href: "#approach", label: "Our Approach", isHash: true },
+    { href: "/approach", label: "Our Approach" },
     { href: "/blog", label: "Blog" },
     { href: "/contact", label: "Contact" },
   ];
@@ -35,12 +35,12 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <div className="hidden md:flex space-x-10 text-sm font-medium">
-            {navLinks.map(({ href, label, isHash }) => (
+            {navLinks.map(({ href, label }) => (
               <Link
                 key={href}
                 href={href}
                 className={`${
-                  !isHash && pathname === href
+                  pathname === href
                     ? "text-[#6e573b] font-semibold"
                     : "text-white"
                 } hover:text-[#6e573b] transition`}
