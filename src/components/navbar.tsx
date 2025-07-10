@@ -57,7 +57,7 @@ export default function Navbar() {
               className="bg-[#6e573b] flex items-center gap-2 text-white px-5 py-3 rounded-full text-sm font-semibold shadow hover:bg-gray-500 transition"
             >
               <FiPhone className="text-white text-lg" />
-              +1 (234) 567-890
+              410-449-7007
             </Link>
           </div>
 
