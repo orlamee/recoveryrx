@@ -13,7 +13,7 @@ export default function AboutPage() {
       <section className="relative h-[60vh] flex items-center justify-center text-white">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/health.jpg"
+            src="/images/aboutbg.jpg"
             alt="About RecoveryRx"
             fill
             className="object-cover"
@@ -158,7 +158,7 @@ export default function AboutPage() {
             and help you take the first step toward healing.
           </p>
           <Link
-            href="#contact"
+            href="/contact"
             className="inline-block bg-[#6e573b] hover:bg-gray-500 text-white font-semibold px-6 py-3 rounded-full text-sm transition"
           >
             Contact Admissions Now →

@@ -106,7 +106,7 @@ export default function TreatmentPage() {
             </div>
             <div className="relative h-96 overflow-hidden shadow-md">
               <Image
-                src="/images/blog.jpg"
+                src="/images/subuse.jpg"
                 alt="Substance Use Treatment"
                 fill
                 className="object-cover"
@@ -239,7 +239,7 @@ export default function TreatmentPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 items-center">
             <div className="relative h-96  overflow-hidden shadow-md order-last lg:order-first">
               <Image
-                src="/images/hero.jpg"
+                src="/images/co-occur.jpg"
                 alt="Co-Occurring Disorders Treatment"
                 fill
                 className="object-cover"
@@ -445,7 +445,7 @@ export default function TreatmentPage() {
             </div>
             <div className="relative h-96 overflow-hidden shadow-md">
               <Image
-                src="/images/health.jpg"
+                src="/images/cannabis.jpg"
                 alt="Cannabis Use Disorder Treatment"
                 fill
                 className="object-cover"
@@ -518,7 +518,7 @@ export default function TreatmentPage() {
                 ready to help you take the first step toward healing.
               </p>
               <Link
-                href="#contact"
+                href="/contact"
                 className="inline-block bg-[#6e573b] hover:bg-[#5a4730] text-white font-semibold px-8 py-3 rounded-full text-sm transition-colors duration-300 shadow-md hover:shadow-lg"
               >
                 Contact Our Team Today →

@@ -17,9 +17,9 @@ export default function Hero() {
         />
         <div className="absolute inset-0 bg-black/60" />
       </div>
-      <div className="z-10 text-center px-4 max-w-3xl">
+      <div className="z-10 text-center px-4 max-w-6xl">
         <h1 className="text-6xl md:text-6xl mb-6">
-          Welcome to RecoveryRx
+          Welcome to RecoveryRx your partner in overcoming opioid use disorder and substance addiction
         </h1>
         <p className="text-sm md:text-[16px] mb-8 leading-relaxed">
           We provide personalized, evidence-based treatment designed to support

@@ -43,7 +43,7 @@ export default function ContactPage() {
                 icon: <FaPhone className="text-3xl text-[#6e573b]" />,
                 title: "Call Us",
                 content: "24/7 Admissions Line",
-                detail: "(555) 123-4567",
+                detail: "410-449-7007",
                 link: "tel:410-449-7007",
                 linkText: "Call Now",
               },

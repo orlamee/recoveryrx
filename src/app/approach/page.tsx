@@ -15,7 +15,7 @@ export default function ApproachPage() {
       <section className="relative h-[60vh] flex items-center justify-center text-white">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/health.jpg"
+            src="/images/approach-bg.jpg"
             alt="Our Approach at RecoveryRx"
             fill
             className="object-cover"
@@ -61,7 +61,7 @@ export default function ApproachPage() {
             </div>
             <div className="relative h-80 overflow-hidden rounded-lg shadow-lg">
               <Image
-                src="/images/health.jpg"
+                src="/images/our-approach.jpg"
                 alt="Individualized Treatment"
                 fill
                 className="object-cover"
@@ -73,7 +73,7 @@ export default function ApproachPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16 items-center">
             <div className="relative h-80 overflow-hidden rounded-lg shadow-lg order-last lg:order-first">
               <Image
-                src="/images/health-2.jpg"
+                src="/images/pro.jpg"
                 alt="Progress Over Perfection"
                 fill
                 className="object-cover"

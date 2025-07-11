@@ -44,7 +44,7 @@ const testimonials = [
   },
   {
     id: 5,
-    name: "Tyler S.",
+    name: "Yvonne S.",
     role: "Patient",
     image: "/images/avatar.png",
     quote:
@@ -52,7 +52,7 @@ const testimonials = [
   },
   {
     id: 6,
-    name: "Kevin L.",
+    name: "Spencer L.",
     role: "Patient",
     image: "/images/avatar.png",
     quote:

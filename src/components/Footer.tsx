@@ -29,11 +29,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg mb-4">Contact</h3>
             <div className="space-y-4 text-xs">
-              <p className="text-white">123 Healthcare Ave</p>
-              <p className="text-white">Suite 456</p>
-              <p className="text-white">New York, NY 10001</p>
-              <p className="text-white">Phone: (555) 123-4567</p>
-              <p className="text-white">Email: info@recoveryrx.com</p>
+              <p className="text-white">1412 Crain Highway North, Suite 6B, Glen Burnie, MD 21061</p>
+              <p className="text-white">Phone: 410-449-7007</p>
+              <p className="text-white">Email: contact@recoveryrxclinic.com</p>
             </div>
           </div>
 

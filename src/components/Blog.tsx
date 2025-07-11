@@ -18,7 +18,7 @@ const blogPosts = [
     excerpt:
       "Addressing the dual challenges of addiction recovery and mental health, and how integrated treatment approaches can make a difference.",
     date: "July 6, 2025",
-    image: "/images/health-2.jpg",
+    image: "/images/blog-health.jpg",
     readTime: "6 min read",
   },
   {
@@ -27,7 +27,7 @@ const blogPosts = [
     excerpt:
       "How involving family members in the recovery process can strengthen outcomes and rebuild relationships damaged by addiction.",
     date: "July 4, 2025",
-    image: "/images/blog.jpg",
+    image: "/images/blog-family.jpg",
     readTime: "7 min read",
   },
 ];
