@@ -51,7 +51,7 @@ export default function ContactPage() {
                 icon: <FaMapMarkerAlt className="text-3xl text-[#6e573b]" />,
                 title: "Visit Us",
                 content: "RecoveryRx Center",
-                detail: "1412 Crain Highway North, Suite 6B, Glen Burnie, MD 21061",
+                detail: "1412 Crain Highway North\nSuite 6B\nGlen Burnie, MD 21061",
                 link: "#map",
                 linkText: "Get Directions",
               },
@@ -81,7 +81,9 @@ export default function ContactPage() {
                   {item.title}
                 </h3>
                 <p className="text-black mb-1">{item.content}</p>
-                <p className="text-black text-sm mb-4">{item.detail}</p>
+                <div className="text-black text-sm mb-4 whitespace-pre-line">
+                  {item.detail}
+                </div>
                 <Link
                   href={item.link}
                   className="inline-block bg-[#6e573b] hover:bg-[#5a4730] text-white font-medium px-4 py-2 rounded-full text-xs transition-colors duration-300"
