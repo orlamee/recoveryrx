@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useCallback } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const chunkArray = (arr: any[], size: number) =>
@@ -73,7 +73,7 @@ const Testimonial = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl text-[#6e573b] text-center mb-12">
-          What Our Users Say
+          What Our Patients are Saying
         </h2>
 
         <div className="relative overflow-hidden">
@@ -94,14 +94,14 @@ const Testimonial = () => {
                       className="bg-white p-6 rounded shadow"
                     >
                       <div className="flex items-center mb-4">
-                        <div className="relative w-12 h-12 mr-4">
+                        {/* <div className="relative w-12 h-12 mr-4">
                           <Image
                             src={testimonial.image}
                             alt={testimonial.name}
                             fill
                             className="rounded-full object-cover"
                           />
-                        </div>
+                        </div> */}
                         <div>
                           <h3 className="font-bold">{testimonial.name}</h3>
                           <p className="text-[#6e573b] text-sm">
