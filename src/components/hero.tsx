@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -27,12 +26,15 @@ export default function Hero() {
           expertise, we’re here to help you take the next step toward lasting
           change.
         </p>
-        <Link
-          href="#contact"
-          className="inline-block bg-[#6e573b] hover:bg-gray-500 text-white font-semibold px-6 py-3 rounded-full text-sm transition"
+        <button
+          onClick={() => {
+            const nextSection = document.querySelector('main > *:nth-child(3)');
+            nextSection?.scrollIntoView({ behavior: 'smooth' });
+          }}
+          className="inline-block bg-[#6e573b] hover:bg-gray-500 text-white font-semibold px-6 py-3 rounded-full text-sm transition cursor-pointer"
         >
           Start Your Journey Today
-        </Link>
+        </button>
       </div>
     </section>
   );
