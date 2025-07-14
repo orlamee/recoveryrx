@@ -7,14 +7,14 @@ import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 const slides = [
   {
     id: 1,
-    image: "/images/slider.png",
+    image: "/images/homebg.jpg",
     title: "Welcome to RecoveryRx",
     subtitle: "Your partner in overcoming opioid use disorder and substance addiction.",
     buttonText: "Start Your Journey Today"
   },
    {
     id: 1,
-    image: "/images/homebg.jpg",
+    image: "/images/our-approach.jpg",
     title: "Welcome to RecoveryRx",
     subtitle: "Your partner in overcoming opioid use disorder and substance addiction.",
     buttonText: "Start Your Journey Today"
