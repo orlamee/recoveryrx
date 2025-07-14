@@ -51,10 +51,10 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* CTA Button */}
+          {/* CTA Button - Desktop */}
           <div className="hidden md:flex items-center space-x-2">
             <Link
-              href="tel:+1234567890"
+              href="tel:410-449-7007"
               className="bg-[#6e573b] flex items-center gap-2 text-white px-5 py-3 rounded-full text-sm font-semibold shadow hover:bg-gray-500 transition"
             >
               <FiPhone className="text-white text-lg" />
@@ -62,8 +62,15 @@ export default function Navbar() {
             </Link>
           </div>
 
-          {/* Mobile Menu Toggle */}
-          <div className="md:hidden">
+          {/* Mobile CTA and Menu Toggle */}
+          <div className="md:hidden flex items-center space-x-3">
+            <Link
+              href="tel:410-449-7007"
+              className="bg-[#6e573b] flex items-center gap-1 text-white px-3 py-2 rounded-full text-xs font-semibold shadow hover:bg-gray-500 transition"
+            >
+              <FiPhone className="text-white text-sm" />
+              Call
+            </Link>
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               className="text-white text-2xl"
