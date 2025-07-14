@@ -20,7 +20,7 @@ export default function TreatmentPage() {
       <section className="relative h-[60vh] flex items-center justify-center text-white">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero.jpg"
+            src="/images/what-treat.jpg"
             alt="Treatment at RecoveryRx"
             fill
             className="object-cover"
