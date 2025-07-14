@@ -12,6 +12,14 @@ const chunkArray = (arr: any[], size: number) =>
 const testimonials = [
   {
     id: 1,
+    name: "Alexxus",
+    role: "Patient",
+    image: "/images/avatar.png",
+    quote:
+      "Working with Vivian has raised my expectations for all other healthcare professionals. She is always professional, easy to work with, and someone who actively listens to my concerns. Having been a patient for over a year, I would confidently recommend this practice to a loved one working on their mental/emotional health.",
+  },
+  {
+    id: 2,
     name: "Daniel K.",
     role: "Patient",
     image: "/images/avatar.png",
@@ -19,7 +27,7 @@ const testimonials = [
       "I was skeptical about using medication to manage my recovery, but the MAT program helped me feel normal again. The team at RecoveryRx explained everything and made sure I was comfortable. I finally feel like myself.",
   },
   {
-    id: 2,
+    id: 3,
     name: "Monique H.",
     role: "Patient",
     image: "/images/avatar.png",
@@ -27,7 +35,7 @@ const testimonials = [
       "After a relapse, I was afraid to ask for help again. RecoveryRx welcomed me without judgment and helped me rebuild from a stronger foundation. I'm now focused, motivated, and feeling hopeful for the first time in a while.",
   },
   {
-    id: 3,
+    id: 4,
     name: "Serena V.",
     role: "Patient",
     image: "/images/avatar.png",
@@ -35,7 +43,7 @@ const testimonials = [
       "For years, I felt stuck in a cycle of anxiety and substance use. RecoveryRx helped me understand how the two were connected and gave me tools to work through both. This was the first time I felt truly seen and understood.",
   },
   {
-    id: 4,
+    id: 5,
     name: "Marcus D.",
     role: "Patient",
     image: "/images/avatar.png",
@@ -43,7 +51,7 @@ const testimonials = [
       "Before RecoveryRx, I didn't think long-term recovery was possible for me. But now, with a strong support system and real tools in place, I'm celebrating one full year sober.",
   },
   {
-    id: 5,
+    id: 6,
     name: "Yvonne S.",
     role: "Patient",
     image: "/images/avatar.png",
@@ -51,7 +59,7 @@ const testimonials = [
       "The team at RecoveryRx didn't just treat my addiction, they treated me as a whole person. My mental health, physical health, and lifestyle were all considered.",
   },
   {
-    id: 6,
+    id: 7,
     name: "Spencer L.",
     role: "Patient",
     image: "/images/avatar.png",

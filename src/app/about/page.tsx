@@ -32,11 +32,57 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Meet Dr. Vivian Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl text-[#6e573b] mb-8">Meet Dr. Vivian</h2>
+              <div className="space-y-4 text-sm text-black leading-relaxed">
+                <p>
+                  Dr. Vivian Imo, DNP, CRNP is a Board-Certified Nurse 
+                  Practitioner with over 10 years of experience in mental health 
+                  and addiction care. She began her career at The Johns Hopkins 
+                  Hospital and has worked across a wide range of clinical 
+                  settings, including inpatient psychiatry, outpatient care, 
+                  medically supervised detox programs, intensive outpatient 
+                  programs (IOPs), partial hospitalization (PHPs), and 
+                  residential treatment facilities.
+                </p>
+                <p>
+                  Dr. Vivian specializes in addiction medicine and is certified 
+                  in Medication-Assisted Treatment (MAT). She also treats 
+                  co-occurring mental health conditions such as anxiety, 
+                  depression, bipolar disorder, and schizophrenia. At RecoveryRx, 
+                  she provides personalized and evidence-based treatment in a 
+                  safe, nonjudgmental space—where patients feel seen, heard, and 
+                  supported.
+                </p>
+                <p>
+                  Dr. Vivian is here to walk alongside you—every step of the way 
+                  toward healing and lasting recovery.
+                </p>
+              </div>
+            </div>
+
+            {/* Image */}
+            <div className="relative w-full h-96 lg:h-full">
+              <Image
+                src="/images/vivian.jpeg"
+                alt="Dr. Vivian Imo"
+                fill
+                className="object-cover shadow-md"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Mission & Vision Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-gray-50 p-8 shadow">
+            <div className="bg-white p-8 shadow">
               <h2 className="text-2xl text-[#6e573b] mb-4">Our Mission</h2>
               <p className="text-black mb-6 text-sm font-normal">
                 To provide compassionate, evidence-based addiction care that
@@ -46,7 +92,7 @@ export default function AboutPage() {
                 recovery.
               </p>
             </div>
-            <div className="bg-gray-50 p-8 shadow">
+            <div className="bg-white p-8 shadow">
               <h2 className="text-2xl text-[#6e573b] mb-4">Our Vision</h2>
               <p className="text-black mb-6 text-sm font-normal">
                 To create a world where recovery is accessible, stigma-free, and
@@ -58,7 +104,7 @@ export default function AboutPage() {
       </section>
 
       {/* Core Values Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl text-[#6e573b] text-center mb-12">
             Our Core Values
@@ -91,59 +137,13 @@ export default function AboutPage() {
                   "Recovery doesn't happen in isolation. We foster support systems that last.",
               },
             ].map((value, index) => (
-              <div key={index} className="bg-white p-6 rounded-none shadow">
+              <div key={index} className="bg-gray-50 p-6 rounded-none shadow">
                 <h3 className="text-lg text-[#6e573b] font-semibold mb-3">
                   {value.title}
                 </h3>
                 <p className="text-sm">{value.description}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Our Story Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl text-[#6e573b] mb-8">Our Story</h2>
-              <div className="space-y-4 text-sm text-black leading-relaxed">
-                <p>
-                  RecoveryRx began with one mission: to offer a better path to
-                  healing, one rooted in dignity, understanding, and real
-                  support.
-                </p>
-                <p>
-                  Dr. Vivian saw a need for addiction care that treats the
-                  whole person, not just the symptoms. So we created a place
-                  where people feel safe, heard, and empowered from day one.
-                </p>
-                <p>
-                  Located in the heart of our community, RecoveryRx is more than
-                  a clinic, it is a place where individuals and families could
-                  find hope, healing, and a path forward. From the very
-                  beginning, we committed ourselves to evidence-based practices,
-                  real human connection, and the understanding that every
-                  recovery journey is deeply personal.
-                </p>
-                <p>
-                  Today, RecoveryRx continues to grow, but our mission remains
-                  the same: to walk beside each person, helping them reclaim
-                  their life with strength, dignity, and support that lasts.
-                </p>
-              </div>
-            </div>
-
-            {/* Image */}
-            <div className="relative w-full h-96 lg:h-full">
-              <Image
-                src="/images/blog.jpg"
-                alt="Our Story"
-                fill
-                className="object-cover shadow-md"
-              />
-            </div>
           </div>
         </div>
       </section>

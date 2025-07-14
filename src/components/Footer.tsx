@@ -1,6 +1,6 @@
-import React from 'react';
-import Link from 'next/link';
-import { FaTwitter, FaLinkedin } from 'react-icons/fa';
+import React from "react";
+import Link from "next/link";
+import { FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -10,8 +10,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg mb-4">About RecoveryRx</h3>
             <p className="text-white text-xs leading-6 mb-4">
-              RecoveryRx is a digital health platform dedicated to improving medication adherence
-              and healthcare outcomes through innovative technology solutions.
+              RecoveryRx provides compassionate, evidence-based addiction care
+              that empowers individuals and families to heal, grow, and reclaim
+              their lives. We are committed to meeting people where they are and
+              walking with them every step of the way toward long-term recovery.
             </p>
             <div className="flex items-center space-x-4">
               <Link href="https://twitter.com" className="hover:text-blue-400">
@@ -54,7 +56,10 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/treatments" className="text-white hover:text-white">
+                <Link
+                  href="/treatments"
+                  className="text-white hover:text-white"
+                >
                   Services
                 </Link>
               </li>
@@ -75,7 +80,8 @@ const Footer = () => {
           <div>
             <h3 className="text-lg mb-4">Newsletter</h3>
             <p className="text-white text-xs leading-5 mb-4">
-              Subscribe to our newsletter for the latest updates and health tips.
+              Subscribe to our newsletter for the latest updates and health
+              tips.
             </p>
             <form className="space-y-4 text-xs">
               <input

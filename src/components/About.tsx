@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { FiCalendar } from "react-icons/fi";
+// import { FiCalendar } from "react-icons/fi";
 
 const About = () => {
   return (
@@ -18,25 +18,33 @@ const About = () => {
           <div>
             <h2 className="text-4xl text-[#6e573b] mb-4">About RecoveryRx</h2>
             <p className="text-black mb-6 text-sm font-normal">
-              RecoveryRx began with one mission: to offer a better path to
-              healing, one rooted in dignity, understanding, and real support.
-              Dr. Vivian saw a need for addiction care that treats the whole
-              person, not just the symptoms. So we created a place where people
-              feel safe, heard, and empowered from day one.
+              RecoveryRx was founded with a clear mission: to offer a better
+              path to recovery, one rooted in dignity, understanding, and real
+              support. Dr. Vivian recognized the need for transformative
+              addiction care; the kind that truly sees the whole person, not
+              just the addiction. That mission led to the creation of
+              RecoveryRx: a place where people feel safe, heard, and empowered
+              from day one.
             </p>
             <p className="text-black mb-6 text-sm font-normal">
-              Located in the heart of our community, RecoveryRx is more than a
-              clinic, it is a place where individuals and families could find
-              hope, healing, and a path forward. From the very beginning, we
-              committed ourselves to evidence-based practices, real human
-              connection, and the understanding that every recovery journey is
-              deeply personal.
+              We specialize in Medication-Assisted Treatment (MAT), using
+              evidence-based medications such as Suboxone, Sublocade and
+              Vivitrol as part of a comprehensive, personalized approach that
+              meets people where they are and helps them get to where they truly
+              want to be.
+            </p>
+            <p className="text-black mb-6 text-sm font-normal">
+              Located in the heart of our community, RecoveryRx is more than
+              just a clinic, it’s a place of hope, healing, and empowerment for
+              individuals and families. We know that recovery is never
+              one-size-fits-all. Every journey is personal, and at RecoveryRx,
+              we walk that path with you.
             </p>
 
-            <button className="mt-4 bg-[#6e573b] hover:bg-gray-500 text-white font-semibold py-3 px-6 rounded-full text-sm shadow transition inline-flex items-center gap-2">
+            {/* <button className="mt-4 bg-[#6e573b] hover:bg-gray-500 text-white font-semibold py-3 px-6 rounded-full text-sm shadow transition inline-flex items-center gap-2">
               <FiCalendar className="text-lg" />
               Schedule an Appointment
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
