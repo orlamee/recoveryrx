@@ -49,6 +49,15 @@ html {
   }
 }
 
+@keyframes progress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 /* Animation classes */
 .animate-fade-in {
   animation: fade-in 0.8s ease-out forwards;

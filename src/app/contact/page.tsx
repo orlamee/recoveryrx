@@ -176,19 +176,7 @@ export default function ContactPage() {
       </section>
 
       {/* Map Section */}
-      <section className="bg-white py-16">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <h2 className="text-4xl text-[#6e573b] text-center mb-8">
-            Our Location
-          </h2>
-          <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-md">
-            {/* Replace with actual map component or iframe */}
-            <div className="w-full h-96 bg-gray-200 flex items-center justify-center">
-              <p className="text-gray-500">Map of RecoveryRx Location</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       <Footer />
     </main>
