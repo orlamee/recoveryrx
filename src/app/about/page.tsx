@@ -66,13 +66,14 @@ export default function AboutPage() {
             </div>
 
             {/* Image */}
-            <div className="relative w-full h-96 lg:h-full">
+            <div className="relative w-full h-96 lg:h-full group">
               <Image
                 src="/images/vivian.jpeg"
                 alt="Dr. Vivian Imo"
                 fill
-                className="object-cover shadow-md"
+                className="object-cover shadow-md transition-all duration-500 ease-in-out group-hover:scale-105 group-hover:shadow-xl animate-pulse"
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
           </div>
         </div>
