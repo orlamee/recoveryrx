@@ -37,7 +37,7 @@ const Footer = () => {
                 <p>Glen Burnie, MD 21061</p>
               </div>
               <p className="text-white">Phone: 410-449-7007</p>
-              <p className="text-white">Email: contact@recoveryrxclinic.com</p>
+              <p className="text-white">Email: info@recoveryrxclinic.com</p>
             </div>
           </div>
 

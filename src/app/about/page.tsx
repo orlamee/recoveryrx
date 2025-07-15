@@ -71,9 +71,9 @@ export default function AboutPage() {
                 src="/images/vivian.jpeg"
                 alt="Dr. Vivian Imo"
                 fill
-                className="object-cover shadow-md transition-all duration-500 ease-in-out group-hover:scale-105 group-hover:shadow-xl animate-pulse"
+                className="object-contain object-top transition-all duration-500 ease-in-out group-hover:scale-105 animate-pulse"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              {/* <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div> */}
             </div>
           </div>
         </div>
@@ -123,9 +123,9 @@ export default function AboutPage() {
                   "Every journey is different. We tailor our care to meet the unique needs, experiences, and goals of each individual.",
               },
               {
-                title: "Integrity & Trust",
+                title: "Integrity",
                 description:
-                  "Transparency, honesty, and respect are the foundation of everything we do.",
+                  "We operate with honesty, transparency, and accountability in every aspect of our work.",
               },
               {
                 title: "Innovation",
@@ -136,6 +136,11 @@ export default function AboutPage() {
                 title: "Community",
                 description:
                   "Recovery doesn't happen in isolation. We foster support systems that last.",
+              },
+              {
+                title: "Trust",
+                description:
+                  "We earn and honor the confidence of our patients by creating a safe, respectful, and reliable environment for healing.",
               },
             ].map((value, index) => (
               <div key={index} className="bg-gray-50 p-6 rounded-none shadow">

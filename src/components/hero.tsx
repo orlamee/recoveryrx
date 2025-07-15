@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+// import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 const slides = [
   {
@@ -36,13 +36,13 @@ export default function Hero() {
     return () => clearInterval(interval);
   }, [isAutoPlaying]);
 
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % slides.length);
-  };
+  // const nextSlide = () => {
+  //   setCurrentSlide((prev) => (prev + 1) % slides.length);
+  // };
 
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-  };
+  // const prevSlide = () => {
+  //   setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  // };
 
   const goToSlide = (index: number) => {
     setCurrentSlide(index);
@@ -84,7 +84,7 @@ export default function Hero() {
       <div className="z-10 text-center px-4 max-w-6xl relative">
         <h1 
           key={`title-${currentSlide}`}
-          className="text-4xl md:text-6xl mb-6 font-bold animate-fade-in-up"
+          className="text-4xl md:text-5xl mb-6 animate-fade-in-up"
         >
           {slides[currentSlide].title}
         </h1>
@@ -103,7 +103,7 @@ export default function Hero() {
       </div>
 
       {/* Navigation Arrows */}
-      <button
+      {/* <button
         onClick={prevSlide}
         className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white p-3 rounded-full transition-all duration-300 hover:scale-110"
         aria-label="Previous slide"
@@ -117,7 +117,7 @@ export default function Hero() {
         aria-label="Next slide"
       >
         <FiChevronRight className="text-2xl" />
-      </button>
+      </button> */}
 
       {/* Dot Indicators */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex space-x-3">
@@ -125,7 +125,7 @@ export default function Hero() {
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${
+            className={`w-3 h-3 rounded-full transition-all duration-300 cursor-pointer ${
               index === currentSlide 
                 ? 'bg-white scale-125' 
                 : 'bg-white/50 hover:bg-white/75'
