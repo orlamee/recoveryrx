@@ -9,7 +9,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="relative h-[400px] overflow-hidden rounded-lg shadow-lg group">
             <Image
-              src="/images/homebg.jpg"
+              src="/images/home-sec.jpg"
               alt="About RecoveryRx"
               fill
               className="object-cover transition-all duration-700 ease-in-out transform group-hover:scale-105 animate-fade-in"
@@ -38,7 +38,7 @@ const About = () => {
             </p>
             <p className="text-black mb-6 text-sm font-normal animate-fade-in-up animation-delay-600">
               Located in the heart of our community, RecoveryRx is more than
-              just a clinic, it&apos;s a place of hope, healing, and empowerment for
+              just a clinic, it’s a place of hope, healing, and empowerment for
               individuals and families. We know that recovery is never
               one-size-fits-all. Every journey is personal, and at RecoveryRx,
               we walk that path with you.
