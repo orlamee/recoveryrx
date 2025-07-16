@@ -32,13 +32,12 @@ const Footer = () => {
             <h3 className="text-lg mb-4">Contact</h3>
             <div className="space-y-4 text-xs">
               <div className="text-white">
-                <p>Suboxone Clinic</p>
                 <p>1412 Crain Highway North</p>
                 <p>Suite 6B</p>
                 <p>Glen Burnie, MD 21061</p>
               </div>
-              <p className="text-white">Phone: 410-449-7007</p>
-              <p className="text-white">Email: info@recoveryrxclinic.com</p>
+              <p className="text-white">410-449-7007</p>
+              <p className="text-white">info@recoveryrxclinic.com</p>
             </div>
           </div>
 

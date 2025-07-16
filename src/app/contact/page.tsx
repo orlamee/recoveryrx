@@ -49,7 +49,7 @@ export default function ContactPage() {
               },
               {
                 icon: <FaMapMarkerAlt className="text-3xl text-[#6e573b]" />,
-                title: "Visit Us",
+                title: "RecoveryRx",
                 content: "Suboxone Clinic",
                 detail: "1412 Crain Highway North\nSuite 6B\nGlen Burnie, MD 21061",
                 link: "#map",

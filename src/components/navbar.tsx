@@ -11,9 +11,10 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const navLinks = [
+    { href: "/", label: "Home" },
     { href: "/about", label: "About Us" },
     { href: "/treatments", label: "What We Treat" },
-    { href: "/mat", label: "MAT" },
+    { href: "/mat", label: "What is MAT?" },
     { href: "/approach", label: "Our Approach" },
     // { href: "/blog", label: "Blog" },
     { href: "/contact", label: "Contact" },
@@ -69,7 +70,7 @@ export default function Navbar() {
               className="bg-[#6e573b] flex items-center gap-1 text-white px-3 py-2 rounded-full text-xs font-semibold shadow hover:bg-gray-500 transition"
             >
               <FiPhone className="text-white text-sm" />
-              Call
+              Call 410-449-7007
             </Link>
             <button
               onClick={() => setMenuOpen(!menuOpen)}

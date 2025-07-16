@@ -12,7 +12,7 @@ const chunkArray = (arr: any[], size: number) =>
 const testimonials = [
   {
     id: 1,
-    name: "Alexxus",
+    name: "Individual Therapy",
     role: "Patient",
     image: "/images/avatar.png",
     quote:
@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     id: 2,
-    name: "Daniel K.",
+    name: "Medication-Assisted Treatment",
     role: "Patient",
     image: "/images/avatar.png",
     quote:
@@ -28,7 +28,7 @@ const testimonials = [
   },
   {
     id: 3,
-    name: "Monique H.",
+    name: "Relapse Recovery Support",
     role: "Patient",
     image: "/images/avatar.png",
     quote:
@@ -36,7 +36,7 @@ const testimonials = [
   },
   {
     id: 4,
-    name: "Serena V.",
+    name: "Co-Occurring Disorder Treatment",
     role: "Patient",
     image: "/images/avatar.png",
     quote:
@@ -44,7 +44,7 @@ const testimonials = [
   },
   {
     id: 5,
-    name: "Marcus D.",
+    name: "Sobriety Support Program",
     role: "Patient",
     image: "/images/avatar.png",
     quote:
@@ -52,7 +52,7 @@ const testimonials = [
   },
   {
     id: 6,
-    name: "Yvonne S.",
+    name: "Holistic Addiction Treatment",
     role: "Patient",
     image: "/images/avatar.png",
     quote:
@@ -60,7 +60,7 @@ const testimonials = [
   },
   {
     id: 7,
-    name: "Spencer L.",
+    name: "Family-Inclusive Treatment",
     role: "Patient",
     image: "/images/avatar.png",
     quote:

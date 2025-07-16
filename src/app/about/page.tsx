@@ -32,53 +32,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Meet Dr. Vivian Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl text-[#6e573b] mb-8">Meet Dr. Vivian</h2>
-              <div className="space-y-4 text-sm text-black leading-relaxed">
-                <p>
-                  Dr. Vivian Imo, DNP, CRNP is a Board-Certified Nurse 
-                  Practitioner with over 10 years of experience in mental health 
-                  and addiction care. She began her career at The Johns Hopkins 
-                  Hospital and has worked across a wide range of clinical 
-                  settings, including inpatient psychiatry, outpatient care, 
-                  medically supervised detox programs, intensive outpatient 
-                  programs (IOPs), partial hospitalization (PHPs), and 
-                  residential treatment facilities.
-                </p>
-                <p>
-                  Dr. Vivian specializes in addiction medicine and is certified 
-                  in Medication-Assisted Treatment (MAT). She also treats 
-                  co-occurring mental health conditions such as anxiety, 
-                  depression, bipolar disorder, and schizophrenia. At RecoveryRx, 
-                  she provides personalized and evidence-based treatment in a 
-                  safe, nonjudgmental space—where patients feel seen, heard, and 
-                  supported.
-                </p>
-                <p>
-                  Dr. Vivian is here to walk alongside you—every step of the way 
-                  toward healing and lasting recovery.
-                </p>
-              </div>
-            </div>
-
-            {/* Image */}
-            <div className="relative w-full h-96 lg:h-full group">
-              <Image
-                src="/images/vivian.jpeg"
-                alt="Dr. Vivian Imo"
-                fill
-                className="object-contain object-top transition-all duration-500 ease-in-out group-hover:scale-105 animate-pulse"
-              />
-              {/* <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div> */}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Mission & Vision Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -140,7 +93,7 @@ export default function AboutPage() {
               {
                 title: "Trust",
                 description:
-                  "We earn and honor the confidence of our patients by creating a safe, respectful, and reliable environment for healing.",
+                  "We earn and honor the confidence of our patients by creating a safe, respectful, and reliable environment for healing.",
               },
             ].map((value, index) => (
               <div key={index} className="bg-gray-50 p-6 rounded-none shadow">
@@ -150,6 +103,53 @@ export default function AboutPage() {
                 <p className="text-sm">{value.description}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Meet Dr. Vivian Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl text-[#6e573b] mb-8">Meet Dr. Vivian</h2>
+              <div className="space-y-4 text-sm text-black leading-relaxed">
+                <p>
+                  Dr. Vivian Imo, DNP, CRNP is a Board-Certified Nurse 
+                  Practitioner with over 10 years of experience in mental health 
+                  and addiction care. She began her career at The Johns Hopkins 
+                  Hospital and has worked across a wide range of clinical 
+                  settings, including inpatient psychiatry, outpatient care, 
+                  medically supervised detox programs, intensive outpatient 
+                  programs (IOPs), partial hospitalization (PHPs), and 
+                  residential treatment facilities.
+                </p>
+                <p>
+                  Dr. Vivian specializes in addiction medicine and is certified 
+                  in Medication-Assisted Treatment (MAT). She also treats 
+                  co-occurring mental health conditions such as anxiety, 
+                  depression, bipolar disorder, and schizophrenia. At RecoveryRx, 
+                  she provides personalized and evidence-based treatment in a 
+                  safe, nonjudgmental space—where patients feel seen, heard, and 
+                  supported.
+                </p>
+                <p>
+                  Dr. Vivian is here to walk alongside you—every step of the way 
+                  toward healing and lasting recovery.
+                </p>
+              </div>
+            </div>
+
+            {/* Image */}
+            <div className="relative w-full h-96 lg:h-full group">
+              <Image
+                src="/images/vivian.jpeg"
+                alt="Dr. Vivian Imo"
+                fill
+                className="object-contain object-top transition-all duration-500 ease-in-out group-hover:scale-105 animate-pulse"
+              />
+              {/* <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div> */}
+            </div>
           </div>
         </div>
       </section>
