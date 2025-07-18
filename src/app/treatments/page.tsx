@@ -173,56 +173,48 @@ export default function TreatmentPage() {
             </div>
           </div>
 
-          {/* Substance Use Disorders */}
+          {/* Cocaine Use Disorder */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 items-center">
             <div className="relative h-96 overflow-hidden shadow-md order-last lg:order-first">
               <Image
-                src="/images/subuse.jpg"
-                alt="Substance Use Treatment"
+                src="/images/cocaine.jpg"
+                alt="Cocaine Addiction Treatment"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="bg-white p-8 rounded-none shadow-md">
               <div className="flex items-center mb-4">
-                <GiMedicines className="text-2xl text-[#6e573b] mr-4" />
+                <GiMedicines className="text-3xl text-[#6e573b] mr-4" />
                 <h3 className="text-2xl text-[#6e573b] font-semibold">
-                  Substance Use Disorders (SUDs)
+                  Cocaine Use Disorder
                 </h3>
               </div>
               <p className="text-black mb-6">
-                Substance use can start small, and quickly take over daily life.
-                We treat a range of substance-related challenges, from misuse to
-                dependency, with proven therapeutic approaches and personal
-                support.
+                Cocaine is a highly addictive stimulant with dangerous short- and long-term effects. Whether snorted, smoked, or injected, it can cause lasting damage to both the body and mind. At RecoveryRx, we provide medically supervised detox and comprehensive treatment for those struggling with cocaine addiction.
               </p>
               <div className="space-y-4 text-sm">
                 <div className="flex items-start">
                   <span className="text-[#6e573b] font-bold mr-2">✓</span>
                   <p className="text-black">
-                    Personalized Treatment Plans that combine counseling,
-                    medication-assisted treatment (MAT), and relapse prevention
-                    techniques
+                    Whole-Person Treatment that addresses both physical dependence and underlying mental health concerns
                   </p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#6e573b] font-bold mr-2">✓</span>
                   <p className="text-black">
-                    Compassionate Care from a team who understands the
-                    complexities of addiction
+                    Medical Detox Support to manage withdrawal symptoms safely and effectively
                   </p>
                 </div>
                 <div className="flex items-start">
                   <span className="text-[#6e573b] font-bold mr-2">✓</span>
                   <p className="text-black">
-                    Evidence-Based Approaches that focus on long-term recovery,
-                    not just short-term fixes
+                    Behavioral Therapy & Counseling to help break the cycle of cravings, binge use, and relapse
                   </p>
                 </div>
               </div>
               <p className="text-black mt-6 italic text-sm">
-                We meet you where you are, working together to create a roadmap
-                for your recovery that empowers you at every step.
+                Cocaine addiction can affect every area of life—from heart health and mental well-being to relationships and self-worth. Our compassionate, evidence-based approach is designed to help you regain control and build lasting recovery.
               </p>
             </div>
           </div>
@@ -338,8 +330,70 @@ export default function TreatmentPage() {
             </div>
           </div>
 
+          {/* Substance Use Disorders */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 items-center">
+            <div className="bg-white p-8 rounded-none shadow-md">
+              <div className="flex items-center mb-4">
+                <GiMedicines className="text-2xl text-[#6e573b] mr-4" />
+                <h3 className="text-2xl text-[#6e573b] font-semibold">
+                  Substance Use Disorders
+                </h3>
+              </div>
+              <p className="text-black mb-6">
+                Substance use can start small, and quickly take over daily life.
+                We treat a range of substance-related challenges, from misuse to
+                dependency, with proven therapeutic approaches and personal
+                support.
+              </p>
+              <div className="space-y-4 text-sm">
+                <div className="flex items-start">
+                  <span className="text-[#6e573b] font-bold mr-2">✓</span>
+                  <p className="text-black">
+                    Personalized Treatment Plans that combine counseling,
+                    medication-assisted treatment (MAT), and relapse prevention
+                    techniques
+                  </p>
+                </div>
+                <div className="flex items-start">
+                  <span className="text-[#6e573b] font-bold mr-2">✓</span>
+                  <p className="text-black">
+                    Compassionate Care from a team who understands the
+                    complexities of addiction
+                  </p>
+                </div>
+                <div className="flex items-start">
+                  <span className="text-[#6e573b] font-bold mr-2">✓</span>
+                  <p className="text-black">
+                    Evidence-Based Approaches that focus on long-term recovery,
+                    not just short-term fixes
+                  </p>
+                </div>
+              </div>
+              <p className="text-black mt-6 italic text-sm">
+                We meet you where you are, working together to create a roadmap
+                for your recovery that empowers you at every step.
+              </p>
+            </div>
+            <div className="relative h-96 overflow-hidden shadow-md">
+              <Image
+                src="/images/subuse.jpg"
+                alt="Substance Use Treatment"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+
           {/* Co-Occurring Disorders */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 items-center">
+            <div className="relative h-96 overflow-hidden shadow-md order-last lg:order-first">
+              <Image
+                src="/images/co-occur.jpg"
+                alt="Co-Occurring Disorders Treatment"
+                fill
+                className="object-cover"
+              />
+            </div>
             <div className="bg-white p-8 rounded-none shadow-md">
               <div className="flex items-center mb-4">
                 <GiBrain className="text-3xl text-[#6e573b] mr-4" />
@@ -379,14 +433,6 @@ export default function TreatmentPage() {
                 We believe that lasting recovery comes from healing all aspects
                 of your life, and we're here to guide you through it.
               </p>
-            </div>
-            <div className="relative h-96 overflow-hidden shadow-md">
-              <Image
-                src="/images/co-occur.jpg"
-                alt="Co-Occurring Disorders Treatment"
-                fill
-                className="object-cover"
-              />
             </div>
           </div>
 

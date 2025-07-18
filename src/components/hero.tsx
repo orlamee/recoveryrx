@@ -14,7 +14,7 @@ const slides = [
   },
    {
     id: 1,
-    image: "/images/our-approach.jpg",
+    image: "/images/slider-1.jpg",
     title: "Welcome to RecoveryRx",
     subtitle: "Your partner in overcoming opioid use disorder and substance addiction.",
     buttonText: "Start Your Journey Today"

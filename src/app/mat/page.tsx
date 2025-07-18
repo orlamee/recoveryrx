@@ -15,7 +15,7 @@ export default function MATPage() {
       <section className="relative h-[60vh] flex items-center justify-center text-white">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero.jpg"
+            src="/images/mat-hero.png"
             alt="Medication-Assisted Treatment at RecoveryRx"
             fill
             className="object-cover"

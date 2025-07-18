@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -8,22 +8,27 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg mb-4">About RecoveryRx</h3>
+            <h3 className="text-lg mb-4">RecoveryRx</h3>
             <p className="text-white text-xs leading-6 mb-4">
-              RecoveryRx provides compassionate, evidence-based addiction care
-              that empowers individuals and families to heal, grow, and reclaim
-              their lives. We are committed to meeting people where they are and
-              walking with them every step of the way toward long-term recovery.
+              In the event of an emergency outside our regular business hours,
+              please call 911 or the Suicide & Crisis Lifeline at 988 for
+              immediate assistance or visit your nearest emergency room. We
+              prioritize your safety and well-being. Please do not hesitate to
+              seek help when you need it most.
             </p>
             <div className="flex items-center space-x-4">
-              <Link href="https://twitter.com" className="hover:text-blue-400">
+              <Link href="https://www.instagram.com/recoveryrxclinic?igsh=MTNnNzAwZW5jYTd5ZA==" className="hover:text-blue-400">
+                <span className="sr-only">Instagram</span>
+                <FaInstagram className="h-6 w-6" />
+              </Link>
+              {/* <Link href="https://twitter.com" className="hover:text-blue-400">
                 <span className="sr-only">Twitter</span>
                 <FaTwitter className="h-6 w-6" />
               </Link>
               <Link href="https://linkedin.com" className="hover:text-blue-400">
                 <span className="sr-only">LinkedIn</span>
                 <FaLinkedin className="h-6 w-6" />
-              </Link>
+              </Link> */}
             </div>
           </div>
 
