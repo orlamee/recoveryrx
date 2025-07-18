@@ -336,7 +336,7 @@ export default function TreatmentPage() {
               <div className="flex items-center mb-4">
                 <GiMedicines className="text-2xl text-[#6e573b] mr-4" />
                 <h3 className="text-2xl text-[#6e573b] font-semibold">
-                  Substance Use Disorders
+                  Other Substance Use Disorders
                 </h3>
               </div>
               <p className="text-black mb-6">
