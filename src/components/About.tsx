@@ -21,11 +21,13 @@ const About = () => {
               RecoveryRx
             </h2>
             <p className="text-black mb-6 text-sm font-normal animate-fade-in-up animation-delay-200">
-              In the event of an emergency outside our regular business hours,
-              please call 911 or the Suicide & Crisis Lifeline at 988 for
-              immediate assistance or visit your nearest emergency room. We
-              prioritize your safety and well-being. Please do not hesitate to
-              seek help when you need it most.
+              RecoveryRx was founded with a clear mission: to offer a better
+              path to recovery, one rooted in dignity, understanding, and real
+              support. Dr. Vivian recognized the need for transformative
+              addiction care; the kind that truly sees the whole person, not
+              just the addiction. That mission led to the creation of
+              RecoveryRx: a place where people feel safe, heard, and empowered
+              from day one.
             </p>
             <p className="text-black mb-6 text-sm font-normal animate-fade-in-up animation-delay-400">
               We specialize in Medication-Assisted Treatment (MAT), using

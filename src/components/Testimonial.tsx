@@ -16,7 +16,7 @@ const testimonials = [
     role: "Patient",
     image: "/images/avatar.png",
     quote:
-      "Working with Vivian has raised my expectations for all other healthcare professionals. She is always professional, easy to work with, and someone who actively listens to my concerns. Having been a patient for over a year, I would confidently recommend this practice to a loved one working on their mental/emotional health.",
+      "Working with RecoveryRx has raised my expectations for all other healthcare professionals. She is always professional, easy to work with, and someone who actively listens to my concerns. Having been a patient for some time now, I would confidently recommend this practice to a loved one working on their mental/emotional health.",
   },
   {
     id: 2,
