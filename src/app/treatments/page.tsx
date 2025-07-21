@@ -159,7 +159,7 @@ export default function TreatmentPage() {
                 </div>
               </div>
               <p className="text-black mt-6 italic text-sm">
-                we offer medical support and recovery tools to help reduce
+                We offer medical support and recovery tools to help reduce
                 cravings, prevent relapse, and rebuild your life.
               </p>
             </div>
@@ -200,12 +200,12 @@ export default function TreatmentPage() {
                     Whole-Person Treatment that addresses both physical dependence and underlying mental health concerns
                   </p>
                 </div>
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <span className="text-[#6e573b] font-bold mr-2">✓</span>
                   <p className="text-black">
                     Medical Detox Support to manage withdrawal symptoms safely and effectively
                   </p>
-                </div>
+                </div> */}
                 <div className="flex items-start">
                   <span className="text-[#6e573b] font-bold mr-2">✓</span>
                   <p className="text-black">
@@ -243,13 +243,13 @@ export default function TreatmentPage() {
                     alongside co-occurring mental health concerns
                   </p>
                 </div>
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <span className="text-[#6e573b] font-bold mr-2">✓</span>
                   <p className="text-black">
                     Support for Withdrawal & Cravings using behavioral therapies
                     and motivational approaches
                   </p>
-                </div>
+                </div> */}
                 <div className="flex items-start">
                   <span className="text-[#6e573b] font-bold mr-2">✓</span>
                   <p className="text-black">
