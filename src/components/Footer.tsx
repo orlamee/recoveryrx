@@ -1,9 +1,15 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
+import PrivacyPolicyModal from "./PrivacyPolicyModal";
 
 const Footer = () => {
+  const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
+
   return (
+    <>
     <footer className="bg-black text-white pt-16 pb-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -105,12 +111,28 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white mt-12 pt-8">
-          <p className="text-center text-xs text-white">
-            © {new Date().getFullYear()} RecoveryRx. All rights reserved.
-          </p>
+          <div className="text-center text-xs text-white space-y-2">
+            <p>
+              © {new Date().getFullYear()} RecoveryRx. All rights reserved.
+            </p>
+            <div>
+              <button
+                onClick={() => setIsPrivacyModalOpen(true)}
+                className="text-white hover:text-blue-400 underline transition-colors duration-200"
+              >
+                Privacy Policy
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
+
+    <PrivacyPolicyModal
+      isOpen={isPrivacyModalOpen}
+      onClose={() => setIsPrivacyModalOpen(false)}
+    />
+    </>
   );
 };
 

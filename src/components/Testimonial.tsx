@@ -16,7 +16,7 @@ const testimonials = [
     role: "Patient",
     image: "/images/avatar.png",
     quote:
-      "Working with RecoveryRx has raised my expectations for all other healthcare professionals. They are always professional, easy to work with, and someone who actively listens to my concerns. Having been a patient for some time now, I would confidently recommend this practice to a loved one working on their recovery health.",
+      "Working with RecoveryRx has truly raised my expectations for healthcare professionals. They are consistently professional, easy to work with, and genuinely attentive to my concerns. Having been a patient for some time now, I can confidently recommend this practice to anyone, especially a loved one who is on their recovery journey.",
   },
   {
     id: 2,
