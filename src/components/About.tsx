@@ -9,7 +9,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="relative h-[400px] overflow-hidden rounded-lg shadow-lg group">
             <Image
-              src="/images/home-sec.jpg"
+              src="/images/home-sec.jpeg"
               alt="About RecoveryRx"
               fill
               className="object-cover transition-all duration-700 ease-in-out transform group-hover:scale-105 animate-fade-in"
