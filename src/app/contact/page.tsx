@@ -29,7 +29,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-sm md:text-lg mb-8 leading-relaxed">
             Reach out to begin your recovery journey or get answers to your
-            questions. Our compassionate team is available 24/7.
+            questions. Our compassionate team is available for your needs.
           </p>
         </div>
       </section>
@@ -42,7 +42,7 @@ export default function ContactPage() {
               {
                 icon: <FaPhone className="text-3xl text-[#6e573b]" />,
                 title: "Call Us",
-                content: "24/7 Admissions Line",
+                // content: "24/7 Admissions Line",
                 detail: "410-449-7007",
                 link: "tel:410-449-7007",
                 linkText: "Call Now",
@@ -50,7 +50,7 @@ export default function ContactPage() {
               {
                 icon: <FaMapMarkerAlt className="text-3xl text-[#6e573b]" />,
                 title: "RecoveryRx",
-                content: "Suboxone Clinic",
+                // content: "Suboxone Clinic",
                 detail: "1412 Crain Highway North\nSuite 6B\nGlen Burnie, MD 21061",
                 link: "#map",
                 linkText: "Get Directions",
@@ -65,9 +65,9 @@ export default function ContactPage() {
               },
               {
                 icon: <FaClock className="text-3xl text-[#6e573b]" />,
-                title: "Work Hours",
-                content: "Clinic Hours",
-                detail: "Monday: 10am-3pm\nTuesday: 10am-3pm\nWednesday: 10am-3pm\nThursday: Closed\nFriday: 10am-3pm\nSaturday: 10am-3pm\nSunday: Closed",
+                title: "Hours of Operation",
+                content: "By Appointment Only",
+                detail: "Monday: 10am-3pm\nTuesday: Closed\nWednesday: 10am-3pm\nThursday: Closed\nFriday: 10am-3pm\nSaturday: 10am-3pm\nSunday: Closed",
                 link: "#contact",
                 linkText: "Schedule Call",
               },
