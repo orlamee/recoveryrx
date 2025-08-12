@@ -187,35 +187,43 @@ export default function TreatmentPage() {
               <div className="flex items-center mb-4">
                 <GiMedicines className="text-3xl text-[#6e573b] mr-4" />
                 <h3 className="text-2xl text-[#6e573b] font-semibold">
-                  Cocaine Use Disorder
+                  Stimulant Use Disorder
                 </h3>
               </div>
               <p className="text-black mb-6">
-                Cocaine is a highly addictive stimulant with dangerous short- and long-term effects. Whether snorted, smoked, or injected, it can cause lasting damage to both the body and mind. At RecoveryRx, we provide medically supervised detox and comprehensive treatment for those struggling with cocaine addiction.
+                Stimulant use disorder happens when someone uses drugs like
+                cocaine, methamphetamine, or certain prescription ADHD
+                medications such as Adderall®, Ritalin®, or Vyvanse® in a way
+                that harms their health, relationships, or daily life. These
+                drugs can cause a burst of energy or focus, but over time they
+                may lead to problems like trouble sleeping, mood swings,
+                anxiety, or heart issues. Treatment and support can help people
+                stop or cut back, improve their health, and regain
+                balance in their lives.
               </p>
-              <div className="space-y-4 text-sm">
+              {/* <div className="space-y-4 text-sm">
                 <div className="flex items-start">
                   <span className="text-[#6e573b] font-bold mr-2">✓</span>
                   <p className="text-black">
-                    Whole-Person Treatment that addresses both physical dependence and underlying mental health concerns
+                    Whole-Person Treatment that addresses both physical
+                    dependence and underlying mental health concerns
                   </p>
                 </div>
-                {/* <div className="flex items-start">
-                  <span className="text-[#6e573b] font-bold mr-2">✓</span>
-                  <p className="text-black">
-                    Medical Detox Support to manage withdrawal symptoms safely and effectively
-                  </p>
-                </div> */}
+               
                 <div className="flex items-start">
                   <span className="text-[#6e573b] font-bold mr-2">✓</span>
                   <p className="text-black">
-                    Behavioral Therapy & Counseling to help break the cycle of cravings, binge use, and relapse
+                    Behavioral Therapy & Counseling to help break the cycle of
+                    cravings, binge use, and relapse
                   </p>
                 </div>
-              </div>
-              <p className="text-black mt-6 italic text-sm">
-                Cocaine addiction can affect every area of life—from heart health and mental well-being to relationships and self-worth. Our compassionate, evidence-based approach is designed to help you regain control and build lasting recovery.
-              </p>
+              </div> */}
+              {/* <p className="text-black mt-6 italic text-sm">
+                Cocaine addiction can affect every area of life—from heart
+                health and mental well-being to relationships and self-worth.
+                Our compassionate, evidence-based approach is designed to help
+                you regain control and build lasting recovery.
+              </p> */}
             </div>
           </div>
 
